@@ -5,6 +5,7 @@ The driver won't work unless you configure the SteamVR input bindings and the dr
 Developed by:
 * Danwillm
 * Lucas_VRTech (LucidVR)
+* Kanken6174 (𒀇𒃯#2919)
 
 ## What is this?
 This repository contains the OpenVR(SteamVR) driver for a DIY VR Haptic Glove.
