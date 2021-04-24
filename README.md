@@ -1,4 +1,4 @@
-# OpenGloves Driver - LucidVR X Fngrs
+# OpenGloves Driver - LucidVR X Fngrs X ApexGloves
 ## 🚨 Please follow instructions in the <a href="https://github.com/LucidVR/opengloves-driver/wiki">wiki</a> for necessary configuration of the driver
 The driver won't work unless you configure the SteamVR input bindings and the driver settings.
 
