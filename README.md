@@ -21,40 +21,28 @@ Releases will be available on Steam once the repo hits a stable release.
 That said, we are more than happy to help with issues that may arise, skip to the bottom for how to contact us.
 
 ## Officically Compatible Hardware:
-* LucidVR Gloves - Prototype 3+
-* Fngrs by danwillm
-* If you've made you're own, we would love to know and incorporate into this project!
+* ApexGloves prototype 1.5 and onwards
 
 ## Currently supported:
 * Finger flexion tracking
-* Positioning from a controller
+* Hardware error correction (finger fallback, ignores nonsensical input or at least tries to average it)
+* thumb Y axis
+* Positioning from a controller / rough position from the onbaord MPU
 * Button and joystick inputs
 * Communication Protocols:
   - Serial over USB
 
 ## Features that are almost certainly going to be supported:
-* Positioning from a tracker (If you have some available and don't mind running test driver builds, please do contact us!)
-* Communication Protocols:
-  - Bluetooth LE
-  - Single port serial
+* Y axis for all fingers (V2)
+* Lighter overall glove
 
 ### Considered additions:
-* Finger splay tracking
-* Force feedback haptics
-* Communication Protocols:
-  - 2.4ghz wifi
-  - Hex compression for serial
+* Switching from nano to esp8266 or 32
+* Wireless mode
+* Full XYZ tracking using MPU 9250 instead of 6050 which only does X/Y OR adding a wrist potentiometer
 
 ## Games tested:
-* Half Life Alyx (compatible)
-* SteamVR Home (compatible) (finger tracking compatible **with** knuckles emulation)
-* The Lab (compatible)
-* Aperture Hand Lab (compatible)
-* Pavlov (compatible)
-* Boneworks (compatible **with** knuckles emulation)
-* Blade and Sorcery (compatible **with** knuckles emulation)
-* VRChat (compatible **with** knuckles emulation)
-* Have a game you've tested that does/doesn't work? Please let us know!
+* none yet, the driver is still WIP 
 
 ### What's knuckles emulation?
 Some applications are picky with the controllers they support, we've found this to be the case with Boneworks and VRChat. To get around this issue, we "emulate" a knuckle controller and pass in the values expected for the skeleton, buttons, joysticks etc.
@@ -71,3 +59,4 @@ We are actively welcoming contributions, feel free to open a pull request.
 If you run into issues, you are more than welcome to open a GitHub issue/discussion, or contact us directly on Discord: 
 `danwillm#8254`  
 `LucidVR#0001`
+`𒀇𒃯#2919` (i'm the one who made this fork, the folks at LucidVR might be able to help but open an issue on this github if you encounter issues with MY fork specifically)
